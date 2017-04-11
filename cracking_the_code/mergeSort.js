@@ -1,6 +1,6 @@
 var mergeSort = function(array, tempArray, low, high) {
 
-  var tempArray = tempArray || Array(array.length).fill(undefined)
+  var tempArray = tempArray || []
   var low = low || 0
   var high = high || array.length
   var middle = Math.ceil((high+low) / 2)

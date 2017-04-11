@@ -1,5 +1,4 @@
 var mergeTwo = function (left, right) {
-  // var merged = Array(left.length + right.length).fill(undefined)
   var merged = left.concat(right)
   var i = 0
   var leftIndex = 0
